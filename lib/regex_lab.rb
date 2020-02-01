@@ -5,18 +5,13 @@ ef starts_with_a_vowel?(word)
     false
   end
 end
-#word_1 = "afoot"
-#word_2 = "chandoo"
-#starts_with_a_vowel?(word_2)
+
 
 def words_starting_with_un_and_ending_with_ing(text)
-#returns an array with the words starting with 'un' and ending with 'ing'
+
   text.scan(/un\w+ing/)
  
 end
-
-
-
 
 def words_five_letters_long(text)
   
@@ -28,7 +23,6 @@ end
 
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  #Returns true for text starting with a capital letter and ending with puncutation
   first_letter = text.scan(/\w+/)[0]
   if (text.scan(/\./)) && (first_letter == first_letter.upcase)
     true
