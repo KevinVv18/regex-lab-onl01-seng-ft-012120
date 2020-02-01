@@ -12,11 +12,11 @@ end
 def words_starting_with_un_and_ending_with_ing(text)
 #returns an array with the words starting with 'un' and ending with 'ing'
   text.scan(/un\w+ing/)
-  #text.scan(/un\w+ing\b/)
+ 
 end
 
 
-#words_string = "unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary"
+
 
 def words_five_letters_long(text)
   
